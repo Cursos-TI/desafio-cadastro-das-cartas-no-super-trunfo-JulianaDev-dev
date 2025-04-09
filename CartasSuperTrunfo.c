@@ -1,6 +1,6 @@
 #include <stdio.h>
 char estado;
-
+char codigo;
 
 int main() {
     printf("Cadastro de cartas Super Trunfo!\n");
