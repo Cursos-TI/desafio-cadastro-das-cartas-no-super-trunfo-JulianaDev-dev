@@ -32,6 +32,9 @@ scanf("%s", &estado);
 printf("Digite o código da carta 1:\n");
 scanf("%s", &codigo);
 
+printf("Digite o nome da cidade 1:\n");
+
+
 
 
 
