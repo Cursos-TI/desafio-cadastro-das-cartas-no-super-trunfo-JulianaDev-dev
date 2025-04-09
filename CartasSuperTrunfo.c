@@ -29,6 +29,9 @@ scanf("%d", &carta);
 printf("Digite estado 1: \n");
 scanf("%s", &estado);
 
+printf("Digite o código da carta 1:\n");
+
+
 
 
 
