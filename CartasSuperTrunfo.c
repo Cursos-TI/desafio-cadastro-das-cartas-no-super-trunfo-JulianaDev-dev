@@ -17,6 +17,7 @@ Número de Pontos Turísticos: 50
 Carta 2:
 Estado: B
 Código: B02
+Nome da Cidade: Rio de Janeiro
 
 
 
