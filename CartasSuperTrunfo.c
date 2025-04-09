@@ -21,6 +21,7 @@ Nome da Cidade: Rio de Janeiro
 População: 6748000
 Área: 1200.25 km²
 PIB: 300.50 bilhões de reais
+Número de Pontos Turísticos: 30 
 
 
 
