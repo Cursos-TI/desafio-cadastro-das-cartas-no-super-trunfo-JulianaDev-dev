@@ -5,6 +5,8 @@ char cidade;
 int carta, populacao, pontos_turisticos;
 float area, pib;
 
+Carta 1:  //Da linha 10 até a linha 24, são dados da carta 1
+
 
 int main() {
     printf("Cadastro de cartas Super Trunfo!\n");
