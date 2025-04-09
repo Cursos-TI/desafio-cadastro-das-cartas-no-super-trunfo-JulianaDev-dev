@@ -42,6 +42,7 @@ printf("Digite a área em KM² 1:\n");
 scanf("%f", &area);
 
 printf("Digite o pib 1:\n");
+scanf("%f", &pib);
 
 
 
