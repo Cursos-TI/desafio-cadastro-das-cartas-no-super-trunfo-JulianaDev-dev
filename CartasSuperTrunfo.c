@@ -7,6 +7,7 @@ float area, pib;
 
 Carta 1:  //Da linha 10 até a linha 24, são dados da carta 1
 Estado: A
+Código: A01
 
 
 int main() {
