@@ -44,6 +44,8 @@ scanf("%f", &area);
 printf("Digite o pib 1:\n");
 scanf("%f", &pib);
 
+printf("Digite o número de pontos turísticos 1:\n");
+
 
 
 
