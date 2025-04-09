@@ -48,7 +48,9 @@ printf("Digite o número de pontos turísticos 1:\n");
 scanf("%d", &pontos_turisticos);
 
 printf("Carta 1:\n);
+    printf("Estado: %s", estado);
     
+
 
 
 
