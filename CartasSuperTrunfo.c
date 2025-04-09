@@ -50,6 +50,7 @@ scanf("%d", &pontos_turisticos);
 printf("Carta 1:\n);
     printf("Estado: %s", estado);
     printf("Código da carta: %s", codigo);
+    printf("Nome da Cidade: %s", cidade);
     
 
 
