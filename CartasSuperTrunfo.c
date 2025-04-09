@@ -1,6 +1,8 @@
 #include <stdio.h>
 char estado;
 char codigo;
+char cidade;
+
 
 int main() {
     printf("Cadastro de cartas Super Trunfo!\n");
