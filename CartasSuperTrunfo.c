@@ -2,6 +2,7 @@
 char estado;
 char codigo;
 char cidade;
+int carta, populacao, pontos_turisticos;
 
 
 int main() {
