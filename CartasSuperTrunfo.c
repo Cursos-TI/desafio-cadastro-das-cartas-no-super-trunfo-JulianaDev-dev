@@ -14,6 +14,9 @@ População: 12325000
 PIB: 699.28 bilhões de reais
 Número de Pontos Turísticos: 50
 
+Carta 2:
+
+
 
 
 int main() {
