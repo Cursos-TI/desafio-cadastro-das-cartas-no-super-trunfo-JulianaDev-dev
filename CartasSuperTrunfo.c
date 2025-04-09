@@ -27,6 +27,8 @@ printf("Carta 1:\n");
 scanf("%d", &carta);
 
 printf("Digite estado 1: \n");
+scanf("%s", &estado);
+
 
 
 
