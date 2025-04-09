@@ -38,6 +38,8 @@ scanf("%s", &cidade);
 printf("Digite a população 1:\n");
 scanf("%d", &populacao);
 
+printf("Digite a área em KM² 1:\n");
+
 
 
 
