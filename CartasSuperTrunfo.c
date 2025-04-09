@@ -19,6 +19,7 @@ Estado: B
 Código: B02
 Nome da Cidade: Rio de Janeiro
 População: 6748000
+Área: 1200.25 km²
 
 
 
