@@ -1,56 +1,85 @@
 #include <stdio.h>
-char estado;
-char codigo;
-char cidade;
-int carta, populacao, pontos_turisticos;
-float area, pib;
+char codigo[20] = "A";
 
-Carta 1:  
-Estado: A
-Código: A01
-Nome da Cidade: São Paulo
-População: 12325000
-Área: 1521.11 km²
-PIB: 699.28 bilhões de reais
-Número de Pontos Turísticos: 50
+char estado[30] = "A02";
+char cidade[50] = "Rio de Janeiro";
+int populacao = 560830;
+float area = 130.560;
+float pib = 140.852000 ;
+int pontos_turisticos = 50;
 
-Carta 2:
-Estado: B
-Código: B02
-Nome da Cidade: Rio de Janeiro
-População: 6748000
-Área: 1200.25 km²
-PIB: 300.50 bilhões de reais
-Número de Pontos Turísticos: 30 
+int main() {
+    printf("Digite o código da carta:\n");
+    scanf("%s", codigo);
 
-printf("Carta 1:\n");
-scanf("%d", &carta);
+    printf("Digite o estado:\n");
+    scanf("%s", estado);
 
-printf("Digite estado 1: \n");
-scanf("%s", &estado);
+    printf("Digite o nome da cidade:\n");
+    scanf("%s", cidade);
 
-printf("Digite o código da carta 1:\n");
-scanf("%s", &codigo);
+    printf("Digite a populacao:\n");
+    scanf("%d", &populacao);
+    
+    printf("Digite a àrea em KM²: \n");
+    scanf("%f", &area);
 
-printf("Digite o nome da cidade 1:\n");
-scanf("%s", &cidade);
+    printf("Digite o PIB:\n");
+    scanf("%f", &pib);
 
-printf("Digite a população 1:\n");
-scanf("%d", &populacao);
+    printf("Digite o número de Pontos Turísticos:\n");
+    scanf("%d", &pontos_turisticos);
 
-printf("Digite a área em KM² 1:\n");
-scanf("%f", &area);
+    printf("Carta 1\n");
+    printf("Código da Carta: %s\n", codigo);
+    printf("Estado: %s\n", estado);
+    printf("Nome da Cidade: %s\n", cidade);
+    printf("População: %d\n", populacao);
+    printf("Área em Km²: %f\n", area);
+    printf("PIB: %f\n", pib);
+    printf("Número de Pontos turísticos: %d\n", pontos_turisticos);
 
-printf("Digite o pib 1:\n");
-scanf("%f", &pib);
+    char codigo[20] = "B";
+    char estado[30] = "B02";
+    char cidade[50] = "São Paulo";
+    int populacao = 839436;
+    float area = 340.560;
+    float pib = 240.852000 ;
+    int pontos_turisticos = 80;
 
-printf("Digite o número de pontos turísticos 1:\n");
-scanf("%d", &pontos_turisticos);
+    printf("Digite o código da carta:\n");
+    scanf("%s", codigo);
 
-printf("Carta 1:\n);
-    printf("Estado: %s", estado);
-    printf("Código da carta: %s", codigo);
-    printf("Nome da Cidade: %s", cidade);
+    printf("Digite o estado:\n");
+    scanf("%s", estado);
+
+    printf("Digite o nome da cidade:\n");
+    scanf("%s", cidade);
+
+    printf("Digite a populacao:\n");
+    scanf("%d", &populacao);
+    
+    printf("Digite a àrea em KM²: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB:\n");
+    scanf("%f", &pib);
+
+    printf("Digite o número de Pontos Turísticos:\n");
+    scanf("%d", &pontos_turisticos);
+
+    printf("Carta 2\n");
+    printf("Código da Carta: %s\n", codigo);
+    printf("Estado: %s\n", estado);
+    printf("Nome da Cidade: %s\n", cidade);
+    printf("População: %d\n", populacao);
+    printf("Área em Km²: %f\n", area);
+    printf("PIB: %f\n", pib);
+    printf("Número de Pontos turísticos: %d\n", pontos_turisticos);
+    
+    return 0;
+        
+}
     
 
 
